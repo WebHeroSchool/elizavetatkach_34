@@ -1,6 +1,5 @@
 
-
-fetch('https://api.github.com/users/defunkt') 
+let url = 'https://api.github.com/users/badunka'
 .then(res=> res.json())
 .then(json=> {
         console.log(json.avatar_url);
